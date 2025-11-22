@@ -28,18 +28,30 @@ button:hover{
     width: 300px;
     background-color: gray;
 }
-
 .display{
     display: flex;
-    justify-content: end;
+    flex-direction: column;
+    justify-content: space-between;
     align-items: end;
     border: 2px solid black;
     border-radius: 15px;
-    padding: 20px;
+    padding: 10px;
     height: 25%;
     background-color: rgba(214, 210, 210, 0.993);
+}
+
+.currentDisplay{
+    display: flex;
+    justify-content: end;
+    align-items: end;
     font-size: 50px;
-    
+}
+
+.lastDisplay{
+    display: flex;
+    justify-content: end;
+    align-items: end;
+    font-size: 25px;
 }
 
 .inputButtons{

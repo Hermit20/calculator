@@ -9,7 +9,10 @@
 </head>
 <body>
     <div class = "calculator">
-        <div class="display">0</div>
+        <div class="display">
+            <div class = "lastDisplay"></div>
+            <div class = "currentDisplay">0</div>
+        </div>
         <div class="clrDelButtons">
              <button class="clearButton">CLEAR</button>
              <button class="delButton">DEL</button>
@@ -17,10 +20,10 @@
        
         <div class="inputButtons">
             <div class="operands">
-                <button class="addButton">+</button>
-                <button class="subtractButton">-</button>
-                <button class="multiplyButton">&times</button>
-                <button class="divideButton">&divide</button>
+                <button class="operand">+</button>
+                <button class="operand">-</button>
+                <button class="operand">&times</button>
+                <button class="operand">&divide</button>
             </div>
             <div class="numbers">
                 <div class = "row">
@@ -41,7 +44,7 @@
                 <div class = "row">
                     <button> 0 </button>
                     <button> . </button>
-                    <button> = </button>
+                    <button class = "equalButton"> = </button>
                 </div>
 
             </div>
