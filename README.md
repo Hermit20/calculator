@@ -19,16 +19,10 @@ This repository contains a simple, responsive calculator UI with basic arithmeti
 - `README.md` — This file
 
 ## Usage
+`Live Demo` - https://hermit20.github.io/calculator/
 
-Open `index.html` in your browser. For a quick local server (recommended for some browsers), run:
-
-```bash
-# from the project root
-python3 -m http.server 8000
-# then open http://localhost:8000 in your browser
-```
-
-Interact with the calculator using your mouse/touch or your keyboard.
+Interact with the calculator using your mouse.
+Keyboard functionality coming soon...
 
 ## Development
 
