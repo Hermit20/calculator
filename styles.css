@@ -10,13 +10,17 @@ button{
     border: 1px;
     border-radius: 15px;
     font-size: x-large;
+    
 }
 
+button:hover{
+    opacity: 0.6;
+}
 .calculator{
     
     display: flex;
     flex-direction: column;
-    gap: 20px;
+    gap: 10px;
     padding: 20px;
     border: 2px solid black;
     border-radius: 15px;
@@ -74,10 +78,21 @@ button{
     background-color: orange;
 }
 
-.clearButton{
+.clearButton,.delButton{
     font-weight: bolder;
     letter-spacing: 2px;
     height: 60px;
     width: 50%;
-    background-color: rgb(209, 125, 125);
+    color: white;
+}
+.clearButton{
+    background-color: red;
+}
+
+.delButton{
+     background-color: blue;
+}
+.clrDelButtons{
+    display: flex;
+    gap: 10px;
 }
